@@ -12,8 +12,6 @@ def draw():
     screen.fill("light blue")
     FreshLOL.draw()
     DoudoutheGOAT.draw()
-def update():
-    pass
 def on_mouse_down(pos):
     if FreshLOL.collidepoint(pos):
         FreshLOL.x=random.randint(50,700)
